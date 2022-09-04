@@ -14,16 +14,13 @@ Console.WriteLine("Чётные числа от 1 до " + number1);
                 if (n % 2 != 1)
                 {
                     Console.Write(n + ", ");
-                    bool = false;
+                    not = false;
                 }
                 n++;
             }
 
-            if (not)
-            {
-                Console.WriteLine("Нет чётных чисел!");
-            }
+            
         
-        
+
 
         
